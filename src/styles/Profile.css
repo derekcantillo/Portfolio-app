@@ -3,9 +3,9 @@
     align-items: center;
     text-align: center;
     justify-content: center;
-    height: 10%;
+    height: 100%;
     min-height: fit-content;
-    background-image: url('../assets/Inicio/bg.jpg');
+    background-image: url('../assets/Inicio/bg2.jpg');
     
 }
 
@@ -57,7 +57,8 @@
     border-radius: 50%;
     height: 350px;
     width: 350px;
-    margin: 0 0px 0 200px;
+    margin-top: -50px;
+  
 }
 .profile-picture-background{
     height: 90%;
@@ -65,4 +66,9 @@
     background-image: url("../assets/Inicio/yoxd.jpg");
     background-size: cover;
     border-radius: 50%;
+
+}
+
+.row{
+    padding-left: 90px;
 }
